@@ -1,0 +1,27 @@
+body{
+    background-color: blue;
+    color: #fff;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    background-color: cadetblue;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}       
+
+.div3{
+    background-color: green;
+    
+}
+
+.div5{
+    background-color: yellow;
+}
+
+.divboth{
+    background-color: red;
+}
