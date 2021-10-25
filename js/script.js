@@ -8,14 +8,17 @@ for(let i = 1; i <= 100; i++) {
     row.append(box);
 
     if((i % 3 == 0)){
-        box.classList.add('div3')
+        box.classList.add('div3');
+        box.innerHTML = 'fizz';
     }
 
     if((i % 5 == 0)){
-        box.classList.add('div5')
+        box.classList.add('div5');
+        box.innerHTML = 'buzz';
     }
 
-    /*if((i % 5 == 0)and(i % 3 == 0)){
+    if((i % 5 == 0) && (i % 3 == 0)){
         box.classList.add('divboth')
-    }*/
+        box.innerHTML = 'fizzbuzz';
+    }
 };
